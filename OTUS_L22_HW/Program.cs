@@ -1,6 +1,4 @@
-﻿using System.ComponentModel;
-
-namespace OTUS_L22_HW
+﻿namespace OTUS_L22_HW
 {
     internal class Program
     {
@@ -29,7 +27,7 @@ namespace OTUS_L22_HW
                 }
                 if (tree != null)
                 {
-                    TreeOperations.TraverseTree(tree);
+                    TreeOperations.MakeTreeTraverse(tree);
                     var result2 = false;
                     TreeOperations.FindNumber(tree);
 

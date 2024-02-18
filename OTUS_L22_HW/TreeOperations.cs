@@ -1,6 +1,4 @@
-﻿using System.Xml.Linq;
-
-namespace OTUS_L22_HW
+﻿namespace OTUS_L22_HW
 {
     public class TreeOperations
     {
@@ -97,7 +95,7 @@ namespace OTUS_L22_HW
                 }
             }
         }
-        public static void TraverseTree(TreeNode originNode)
+        public static void MakeTreeTraverse(TreeNode originNode)
         {
             Console.WriteLine("Список сотрудников:");
             Traverse(originNode);
